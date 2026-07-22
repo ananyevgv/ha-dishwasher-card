@@ -1,6 +1,6 @@
 // ha-dishwasher-card.js
 // Карточка для посудомойки Siemens
-// v1.2.2 — Added salt and rinse aid display + power toggle
+// v1.0.0 — Added salt and rinse aid display + power toggle
 
 import { DISHWASHER_TRANSLATIONS } from './i18n/index.js';
 
@@ -1271,7 +1271,7 @@ window.customCards.push({
 });
 
 console.info(
-  '%c 🍽️ Siemens Dishwasher Card %c v1.2.2 %c ready! (Salt & Rinse aid + Power toggle)',
+  '%c 🍽️ Siemens Dishwasher Card %c v1.0.0 %c ready! (Salt & Rinse aid + Power toggle)',
   'background:#0a1628;color:#00d4ff;font-weight:700;padding:2px 6px;border-radius:4px 0 0 4px;font-size:12px',
   'background:#00d4ff;color:#0a1628;font-weight:700;padding:2px 6px;border-radius:0 4px 4px 0;font-size:12px',
   'color:#4ade80;font-weight:400;font-size:11px;margin-left:4px'
